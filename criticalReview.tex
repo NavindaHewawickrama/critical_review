@@ -4,6 +4,10 @@
 \usepackage{lmodern}
 \usepackage{graphicx}
 \usepackage{booktabs}
+
+% natbib for author-year citations (prints "Lamb et al., 2006")
+\usepackage[round]{natbib}
+
 \usepackage{hyperref}
 \hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue}
 
@@ -37,23 +41,20 @@
 \newcommand{\StudentName}{Navinda Hewawickrama}
 \newcommand{\RegistrationNumber}{SC/2020/11730} % <-- change this
 \newcommand{\SubmissionDate}{November 2025}
-\newcommand{\CoverImagePath}{RUHUNAPNG} 
+\newcommand{\CoverImagePath}{RUHUNAPNG}
 
 \begin{document}
 %======================%
 %  COVER PAGE
 %======================%
 \begin{titlepage}
-  \thispagestyle{empty} 
+  \thispagestyle{empty}
   \begin{center}
     \vspace*{10mm}
     {\Large \textbf{\CourseCodeNumber}}\\[6mm]
     \includegraphics[width=0.5\textwidth]{\CoverImagePath}\\[10mm]
-    
-    {\Large \textbf{\ProjectTitle}}\\[10mm]
 
-    % Cover image (optional). Replace width as you like.
-    
+    {\Large \textbf{\ProjectTitle}}\\[10mm]
 
     \textbf{Registration No.:} \RegistrationNumber\\[2mm]
     \textbf{Student Name:} \StudentName\\[6mm]
@@ -66,20 +67,32 @@
   \end{center}
 \end{titlepage}
 
-
-% start page numbering from here
 \clearpage
 \pagenumbering{arabic}
 
 %======================%
 %  CONTENT OF THE REPORT
 %======================%
-%--- Chapter 1 ---%
 \textbf{Introduction}
-The study \enquote{A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles}, was pubished in \textbf{Cell}, on November 30th 2017 by Aravind Subramanian, Todd R. Golub, and 56 others. The main purpose of this paper is to show the new scale up version of the \textbf{Connectivity Map (CMap)}, a foundatonal functional look up table that connect genes, drugs, and disease states by virtue of common gene-expression signatures. The 1000, the new, low cost, high throughput reduced  representation expression profiling method, enables generatin of over a million profiles. This is a publication carried out within the NIH Library of Integrated Network-Based Cellular Signatures (LINCS) Consortium which sets the context of the viability and usefulness of developing a genuinely comprehensive, genome-scale functional resource. This analysis will give a composite evaluation of the scale-up transformation brought by the L1000 program and critically assess the methodological limitations of the program, especially genetic perturbation and target recovery rates.
+
+The study \enquote{A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles}, was published in \textbf{Cell}, on November 30th 2017 by Aravind Subramanian, Todd R. Golub, and many others. The main purpose of this paper is to show the new scale up version of the \textbf{Connectivity Map (CMap)}, a foundational functional look up table that connects genes, drugs, and disease states by virtue of common gene-expression signatures. The L1000, a new, low cost, high throughput reduced representation expression profiling method, enables generation of over a million profiles. This publication was carried out within the NIH Library of Integrated Network-Based Cellular Signatures (LINCS) Consortium which sets the context of the viability and usefulness of developing a genuinely comprehensive, genome-scale functional resource. This analysis will give a composite evaluation of the scale-up transformation brought by the L1000 program and critically assess the methodological limitations of the program, especially genetic perturbation and target recovery rates.
 
 \section{Summary}
 \subsection{Introduction}
-To truly understand Cellular functions, perturbing the system (genetically or chemically) monitoring downstream consequences, idelly using a \enquote{functional look-up table} is required. Modern bomedical resarch has benefited a lot from genomic resources that provides details about genes and its associations with disease. The original CMap pilot shows this concept, but due to its small scale the usage of it is very limited. By introducing the L1000 dataset, the paper addresses this limitation, a reduced representation approach, to expand CMap dramatically.
+To truly understand Cellular functions, perturbing the system (genetically or chemically) and monitoring downstream consequences, ideally using a \enquote{functional look-up table} is required. Modern biomedical research has benefited a lot from genomic resources that provide details about genes and their associations with disease. The original CMap pilot shows this concept, but due to its small scale the usage of it is very limited. By introducing the L1000 dataset, the paper addresses this limitation — a reduced representation approach to expand CMap dramatically \citep{lamb2006connectivity}.
 
+\subsection{Literature Review (Comparison of Approaches)}
+
+The expansion of the CMap was needed to overcome the prohibitive cost of standard gene expression profiling. The authors looked at the proposed L1000 method against three pros/cons like approaches.
+
+\begin{itemize}
+  \item \textbf{Original CMap Approach (Affymetrix Microarrays):} The CMap concept that was used earlier, as a pilot study, used expensive affymetrix microarrays. This method uses profiles of only 164 drugs and 3 cancer cells, which was a very small scale. The paper says that this scale is too small to be shown as a true genome scale resource, showing that there is a need for a cheaper alternate resource for this.
+  \item \textbf{Standard RNA Sequencing (RNA-seq):} The strand for gene expression is noted usually as the RNA-seq, becuase of its unbiased nature. However, even in 2017, the cost of RNA-seq was too high to profile the millions of samples that was needded to create a very comprehensive CMap. Also what adds more to the cost is the fact that deep sequencing required to detect very rare transcripts. The L1000 looks at all these aspects where it helps to detect rare transcripts at a low cost and all the other problems with the CMap, due to begin hybridization based, and it shows that it is actually a superoir high-throughput solution for these specific problems in CMap. 
+  \item \textbf{Alternative Reduced Representation Methods:}The method of understanding a function from a gene expression compendium started with Hughes and colleagues, while they were working in yeast. Som,e like Donner, prposed other computational methods for imputing gene expression from reduced probe sets actually exist. The L1000 changes by selecting its 1000 landmark transcripts using a dimensionality reduction approach that is unbiased and data driven (Principal Component Analysis and tight clustering of 12,031 Affymetrix profiles) that is optimized for max information recovery(82\% of the full transcriptome) insted of using biological knowledge pr alternative probe selection methods, which ususally requires prior knowledge\cite{donner2012imputing,hughes2000functional}.
+  
+  The limitations of scale and cost is overcome by the \textbf{L1000 platform}by using ligation-mediated amplification (LMA) coupled with fluorescently addressed microspheres. The regenst cost is reduced significantly, making the massive scale-up tractable.
+\end{itemize}
+
+\bibliographystyle{plainnat} % works well with natbib
+\bibliography{ref}
 \end{document}

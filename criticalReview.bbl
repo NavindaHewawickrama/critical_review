@@ -1,0 +1,23 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Donner et~al.(2012)Donner, Feng, Benoist, and Koller]{donner2012imputing}
+Yoni Donner, Ting Feng, Christophe Benoist, and Daphne Koller.
+\newblock Imputing gene expression from selectively reduced probe sets.
+\newblock \emph{Nature methods}, 9\penalty0 (11):\penalty0 1120--1125, 2012.
+
+\bibitem[Hughes et~al.(2000)Hughes, Marton, Jones, Roberts, Stoughton, Armour, Bennett, Coffey, Dai, He, et~al.]{hughes2000functional}
+Timothy~R Hughes, Matthew~J Marton, Allan~R Jones, Christopher~J Roberts, Roland Stoughton, Christopher~D Armour, Holly~A Bennett, Ernest Coffey, Hongyue Dai, Yudong~D He, et~al.
+\newblock Functional discovery via a compendium of expression profiles.
+\newblock \emph{Cell}, 102\penalty0 (1):\penalty0 109--126, 2000.
+
+\bibitem[Lamb et~al.(2006)Lamb, Crawford, Peck, Modell, Blat, Wrobel, Lerner, Brunet, Subramanian, Ross, et~al.]{lamb2006connectivity}
+Justin Lamb, Emily~D Crawford, David Peck, Joshua~W Modell, Irene~C Blat, Matthew~J Wrobel, Jim Lerner, Jean-Philippe Brunet, Aravind Subramanian, Kenneth~N Ross, et~al.
+\newblock The connectivity map: using gene-expression signatures to connect small molecules, genes, and disease.
+\newblock \emph{science}, 313\penalty0 (5795):\penalty0 1929--1935, 2006.
+
+\end{thebibliography}

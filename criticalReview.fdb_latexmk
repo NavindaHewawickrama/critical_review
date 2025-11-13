@@ -1,13 +1,25 @@
 # Fdb version 4
-["pdflatex"] 1762963387.76965 "d:/4thyear/research semina/criticalReview.tex" "criticalReview.pdf" "criticalReview" 1762963388.87978 0
+["bibtex criticalReview"] 1763000141.02118 "criticalReview.aux" "criticalReview.bbl" "criticalReview" 1763000797.16168 0
+  "./ref.bib" 1762998956 1325 870aba75c3b8293866c92862cd48b781 ""
+  "c:/texlive/2025/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1758608131 26816 ffe5423d2019860bad9f54bc402fac15 ""
+  "criticalReview.aux" 1763000797 1039 96b14c110c796ad4b66b2e9aac8e651c "pdflatex"
+  (generated)
+  "criticalReview.bbl"
+  "criticalReview.blg"
+  (rewritten before read)
+["pdflatex"] 1763000796.62773 "d:/4thyear/research semina/criticalReview.tex" "criticalReview.pdf" "criticalReview" 1763000797.16205 0
   "RUHUNAPNG.png" 1760987327 862860 81f85e61a71d614af565890f796bbf91 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1758608083 2327 9d6df24f9c4f7368395224341a95523a ""
+  "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1758608083 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1758607886 1288 655e228510b4c2a1abe905c368440826 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm" 1758608083 11880 ea60d06924270684e6f852f3141c992b ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm" 1758608083 11888 6841b91e46b65cf41a49b160e6e74130 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm" 1758608083 11948 fa976674f030491ad35532a8a1e37325 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmri12.tfm" 1758608083 16968 09a34e0af90920bbcece784f13606525 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmr12.tfm" 1758608083 1596 1d4548788e389ded56d0b01b28377882 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb" 1758608083 116908 9a7a12d1e4df280ea0ab4aad83cdef88 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb" 1758608083 113634 9384aebdf26f9881e046a4b5574566db ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb" 1758608083 109265 e6c7d377db6dfccd4a123fb26da8cffb ""
   "c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1759125546 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1758607871 40635 c40361e206be584d448876bba8a64a3b ""
   "c:/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty" 1758607875 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
@@ -53,6 +65,8 @@
   "c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1758608065 678 4792914a8f45be57bb98413425e4c7af ""
   "c:/texlive/2025/texmf-dist/tex/latex/lm/lmodern.sty" 1758608083 1608 b00724785a9e9c599e5181bb8729160b ""
   "c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd" 1758608083 1882 28c08db1407ebff35a658fd141753d16 ""
+  "c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd" 1758608083 1914 884882d7ebb0fd65cea93fca77ff6f5a ""
+  "c:/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty" 1758608131 45456 1c8843383c0bd05870c45fa0ebea6cc2 ""
   "c:/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty" 1758608167 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "c:/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1758608171 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "c:/texlive/2025/texmf-dist/tex/latex/url/url.sty" 1758608218 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
@@ -60,10 +74,11 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1759125553 77129 1673afd84b401507251acf2750ccce42 ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1759125574 2277451 59d882d4a578ccfbbdf9cc4e974aa1d8 ""
   "c:/texlive/2025/texmf.cnf" 1758608226 713 e69b156964470283e0530f5060668171 ""
-  "criticalReview.aux" 1762963388 385 d205ca7ff9eb375037b3a14eea8e49e0 "pdflatex"
-  "criticalReview.out" 1762963388 195 30cf67d81e2621c995a40615b3e38764 "pdflatex"
-  "criticalReview.tex" 1762963386 3986 30a1d62231d17413f12d1d9caac7c70e ""
-  "d:/4thyear/research semina/criticalReview.tex" 1762963386 3986 30a1d62231d17413f12d1d9caac7c70e ""
+  "criticalReview.aux" 1763000797 1039 96b14c110c796ad4b66b2e9aac8e651c "pdflatex"
+  "criticalReview.bbl" 1763000141 1517 2fcb0adc675ed12ebe8d14d28560b7cc "bibtex criticalReview"
+  "criticalReview.out" 1763000797 490 afeed3ce9299c37452cc6a89721eb883 "pdflatex"
+  "criticalReview.tex" 1763000796 6519 dbd0387a81cb40e48f929b1141bd6a33 ""
+  "d:/4thyear/research semina/criticalReview.tex" 1763000796 6519 dbd0387a81cb40e48f929b1141bd6a33 ""
   (generated)
   "criticalReview.aux"
   "criticalReview.log"
