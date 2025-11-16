@@ -1,9 +1,14 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Consortium et~al.(2015)Consortium, Ardlie, Deluca, Segr{\`e}, Sullivan, Young, Gelfand, Trowbridge, Maller, Tukiainen, et~al.]{gtex2015genotype}
+GTEx Consortium, Kristin~G Ardlie, David~S Deluca, Ayellet~V Segr{\`e}, Timothy~J Sullivan, Taylor~R Young, Ellen~T Gelfand, Casandra~A Trowbridge, Julian~B Maller, Taru Tukiainen, et~al.
+\newblock The genotype-tissue expression (gtex) pilot analysis: multitissue gene regulation in humans.
+\newblock \emph{Science}, 348\penalty0 (6235):\penalty0 648--660, 2015.
 
 \bibitem[Donner et~al.(2012)Donner, Feng, Benoist, and Koller]{donner2012imputing}
 Yoni Donner, Ting Feng, Christophe Benoist, and Daphne Koller.
@@ -15,9 +20,24 @@ Timothy~R Hughes, Matthew~J Marton, Allan~R Jones, Christopher~J Roberts, Roland
 \newblock Functional discovery via a compendium of expression profiles.
 \newblock \emph{Cell}, 102\penalty0 (1):\penalty0 109--126, 2000.
 
+\bibitem[Jackson et~al.(2003)Jackson, Bartz, Schelter, Kobayashi, Burchard, Mao, Li, Cavet, and Linsley]{jackson2003expression}
+Aimee~L Jackson, Steven~R Bartz, Janell Schelter, Sumire~V Kobayashi, Julja Burchard, Mao Mao, Bin Li, Guy Cavet, and Peter~S Linsley.
+\newblock Expression profiling reveals off-target gene regulation by rnai.
+\newblock \emph{Nature biotechnology}, 21\penalty0 (6):\penalty0 635--637, 2003.
+
 \bibitem[Lamb et~al.(2006)Lamb, Crawford, Peck, Modell, Blat, Wrobel, Lerner, Brunet, Subramanian, Ross, et~al.]{lamb2006connectivity}
 Justin Lamb, Emily~D Crawford, David Peck, Joshua~W Modell, Irene~C Blat, Matthew~J Wrobel, Jim Lerner, Jean-Philippe Brunet, Aravind Subramanian, Kenneth~N Ross, et~al.
 \newblock The connectivity map: using gene-expression signatures to connect small molecules, genes, and disease.
 \newblock \emph{science}, 313\penalty0 (5795):\penalty0 1929--1935, 2006.
+
+\bibitem[Peck et~al.(2006)Peck, Crawford, Ross, Stegmaier, Golub, and Lamb]{peck2006method}
+David Peck, Emily~D Crawford, Kenneth~N Ross, Kimberly Stegmaier, Todd~R Golub, and Justin Lamb.
+\newblock A method for high-throughput gene expression signature analysis.
+\newblock \emph{Genome biology}, 7\penalty0 (7):\penalty0 R61, 2006.
+
+\bibitem[Subramanian et~al.(2017)Subramanian, Narayan, Corsello, Peck, Natoli, Lu, Gould, Davis, Tubelli, Asiedu, et~al.]{subramanian2017next}
+Aravind Subramanian, Rajiv Narayan, Steven~M Corsello, David~D Peck, Ted~E Natoli, Xiaodong Lu, Joshua Gould, John~F Davis, Andrew~A Tubelli, Jacob~K Asiedu, et~al.
+\newblock A next generation connectivity map: L1000 platform and the first 1,000,000 profiles.
+\newblock \emph{Cell}, 171\penalty0 (6):\penalty0 1437--1452, 2017.
 
 \end{thebibliography}

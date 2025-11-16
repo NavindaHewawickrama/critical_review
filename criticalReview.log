@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.29)  13 NOV 2025 07:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.29)  17 NOV 2025 00:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -348,7 +348,7 @@ Package hyperref Info: Link coloring ON on input line 46.
 \@outlinefile=\write3
 \openout3 = `criticalReview.out'.
 
-<RUHUNAPNG.png, id=16, 1084.05pt x 1084.05pt>
+<RUHUNAPNG.png, id=56, 1084.05pt x 1084.05pt>
 File: RUHUNAPNG.png Graphic file (type png)
 <use RUHUNAPNG.png>
 Package pdftex.def Info: RUHUNAPNG.png  used on input line 55.
@@ -358,7 +358,7 @@ Package pdftex.def Info: RUHUNAPNG.png  used on input line 55.
 [1
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./RUHUNAPNG.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 89.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 88.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -367,32 +367,63 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.92 
+l.91 
       [1
 
-{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (./criticalReview.bbl)
+{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+Overfull \hbox (3.8014pt too wide) in paragraph at lines 99--100
+\OT1/lmr/m/n/12 mediated am-pli-fi-ca-tion (LMA) with cap-ture on flu-o-res-cently ad-dressed mi-cro-spheres.
+ []
 
-[2] (./criticalReview.aux)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 101.
+(c:/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 101.
+ (c:/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 101.
+ (c:/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 101.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 101.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 101.
+
+
+[2{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+
+[3]
+
+[4] (./criticalReview.bbl
+
+[5])
+
+[6] (./criticalReview.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `criticalReview.out' has not changed.
-(rerunfilecheck)             Checksum: AFEED3CE9299C37452CC6A89721EB883;490.
+(rerunfilecheck)             Checksum: 7DEC491181AAD8A379029B776643E88D;2510.
  ) 
 Here is how much of TeX's memory you used:
- 10426 strings out of 469685
- 162735 string characters out of 5476653
- 588495 words of memory out of 5000000
- 38757 multiletter control sequences out of 15000+600000
- 650309 words of font info for 49 fonts, out of 8000000 for 9000
+ 10519 strings out of 469685
+ 164537 string characters out of 5476653
+ 588953 words of memory out of 5000000
+ 38813 multiletter control sequences out of 15000+600000
+ 658386 words of font info for 58 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 75i,11n,79p,1166b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on criticalReview.pdf (3 pages, 1213500 bytes).
+ 75i,12n,79p,1617b,617s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
+Output written on criticalReview.pdf (7 pages, 1236285 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 30 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
